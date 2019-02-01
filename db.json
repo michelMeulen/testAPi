@@ -2,7 +2,13 @@
   "posts": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "hello",
+      "body":  "abcdefg"
+    },
+    {
+      "id":  2,
+      "title" : "goodbye",
+      "body": "Lorem Ipsum"
     }
   ],
   "profile": {
