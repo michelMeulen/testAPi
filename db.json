@@ -1,21 +1,45 @@
 {
-  "posts": [
-    {
+  "posts": [{
       "id": 1,
       "firstName": "Jim",
       "surName": "Johnson",
-      "age":  28,
-      "assets":{
+      "age": 28,
+      "assets": [{
         "type": "house",
         "cost": 500
-      }
+      }],
+      "relationships":[{
+        "ref": 2,
+        "type":"spouse"
+      }]
     },
     {
-      "id":  2,
-      "firstName" : "Mary",
-      "surName":"Johnson",
+      "id": 2,
+      "firstName": "Mary",
+      "surName": "Johnson",
       "age": 36,
-      "assets": {}
+      "assets": {},
+      "relationships":[{
+        "ref": 1,
+        "type":"spouse"
+      }]
+    },
+    {
+      "id": 2,
+      "firstName": "Bill",
+      "surName": "Williams",
+      "age": 71,
+      "assets": [{
+          "type": "house",
+          "cost": 1200
+        },
+        {
+          "type": "car",
+          "cost": 65
+        }
+      ],
+      "relationships":[]
+
     }
   ],
   "profile": {
