@@ -2,13 +2,20 @@
   "posts": [
     {
       "id": 1,
-      "title": "hello",
-      "body":  "abcdefg"
+      "firstName": "Jim",
+      "surName": "Johnson",
+      "age":  28,
+      "assets":{
+        "type": "house",
+        "cost": 500
+      }
     },
     {
       "id":  2,
-      "title" : "goodbye",
-      "body": "Lorem Ipsum"
+      "firstName" : "Mary",
+      "surName":"Johnson",
+      "age": 36,
+      "assets": {}
     }
   ],
   "profile": {
